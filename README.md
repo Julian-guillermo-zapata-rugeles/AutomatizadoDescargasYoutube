@@ -4,6 +4,9 @@
 * sudo pip3 install selenium
 * sudo apt-get install xdotool
 * sudo pip3 install youtube-dl
+* sudo chmod +x /usr/local/bin/geckodriver # ejecutar para dar permisos
+
+ejecutar python3 ColossoYoutube.py para descargar :D
 
 PD :(se incluye el archivo Geckodriver) el cual deberan copiar en la siguiente ruta (Ubuntu)
 ---> en el directorio fuente Iniciar terminal de comandos y ejecutar
