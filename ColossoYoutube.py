@@ -8,7 +8,7 @@ def IniciarDescarga(listaRetorno):
 	from  selenium.webdriver.common.keys import Keys
 	import os
 	for donwload in listaRetorno:
-		os.system("notify-send 'Iniciando Al Colosso VOID_STATIC'")
+		os.system("notify-send 'Iniciando'")
 		comannd="https://www.youtube.com/results?search_query="+donwload
 		driver = webdriver.Firefox()
 		driver.get(comannd)
